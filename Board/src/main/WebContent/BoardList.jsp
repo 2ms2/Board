@@ -72,9 +72,9 @@
 				<c:if test="${count > 0}">
 					<c:set var="pageCount" value="${count / pageSize + (count%pageSize == 0 ? 0 : 1) }" />
 					<c:set var="startPage" value="${1}" />
+					<!-- 결과를 정수형으로 리턴받아야 하기에 fmt태그 사용 -->
+					<fmt:parseNumber var="result" value="${currentPage/10}" integerOnly="true" />
 					<c:if test="${currentPage % 10 != 0}">
-						<!-- 결과를 정수형으로 리턴받아야 하기에 fmt태그 사용 -->
-						<fmt:parseNumber var="result" value="${currentPage/10}" integerOnly="true" />
 						<c:set var="startPage" value="${result*10+1}" />
 					</c:if>
 					<c:if test="${currentPage % 10 == 0}">

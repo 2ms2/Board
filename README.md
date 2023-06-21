@@ -14,6 +14,7 @@
   <img src="https://github.com/2ms2/Board/assets/130042929/4f691ea4-8b52-4420-ad24-d17f82d4ab68.png" style="width:49%">
   <img src="https://github.com/2ms2/Board/assets/130042929/9ab3fdd0-94af-4068-ad8d-b4861746bda8.png" style="width:49%">
 </div>
+
 ### 답글 등록
 - 등록된 글에 답변 등록 시 해당 글 바로 아래 답변 확인 가능
 <div align="center">
